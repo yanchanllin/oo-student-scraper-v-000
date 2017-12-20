@@ -17,7 +17,7 @@ class Student
   end
 
   def add_student_attributes(student_hash)
-      Student.all.each do |student|
+       self.all.each do |student|
         @@all << student
 
       end
